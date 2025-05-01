@@ -1,0 +1,8 @@
+{
+  "name": "WarpWin Minesweeper",
+  "description": "Classic Minesweeper game in Farcaster Frame style",
+  "homepage_url": "https://warpwin-game.vercel.app",
+  "frame_url": "https://856d-2a09-bac1-72a0-10-00-3d6-60.ngrok-free.app/frame",
+  "image": "https://warpwin-game.vercel.app/banner.png",
+  "post_url": "https://856d-2a09-bac1-72a0-10-00-3d6-60.ngrok-free.app/frame/action"
+}
