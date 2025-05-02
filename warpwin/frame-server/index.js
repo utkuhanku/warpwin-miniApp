@@ -2,6 +2,7 @@ const express = require('express');
 const { createCanvas } = require('canvas');
 const app = express();
 app.use(express.json());
+console.log('Sunucu başlatıldı');
 
 app.get('/', (req, res) => {
   res.send('Sunucu çalışıyor!');
@@ -62,6 +63,7 @@ function drawBoard() {
 
 // Frame sayfasını göster
 app.get('/frame', (req, res) => {
+  console.log('GET /frame rotası çağrıldı');
   startNewGame(); // Yeni oyun başlat
   const imageUrl = drawBoard();
   res.send(`
