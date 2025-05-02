@@ -3,6 +3,10 @@ const { createCanvas } = require('canvas');
 const app = express();
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.send('Sunucu çalışıyor!');
+});
+
 // Oyun durumu (8x8 tahta)
 let gameState = {
   board: Array(8).fill().map(() => Array(8).fill({ opened: false, flagged: false, mine: false })),

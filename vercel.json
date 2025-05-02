@@ -7,6 +7,14 @@
     ],
     "routes": [
       {
+        "src": "/frame",
+        "dest": "frame-server/index.js"
+      },
+      {
+        "src": "/api/game",
+        "dest": "frame-server/index.js"
+      },
+      {
         "src": "/(.*)",
         "dest": "frame-server/index.js"
       }
